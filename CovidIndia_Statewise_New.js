@@ -31,7 +31,7 @@
           } 
         }); */
 
-        $.getJSON("https://elasticsearch.spark.sq.com.sg/jenkins_buils_data/_search?pretty&size=10000&q=*:*", function(resp) {
+        $.getJSON("", function(resp) {
             var feat = resp.hits.hits,
                 tableData = [];
             
